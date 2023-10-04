@@ -99,3 +99,18 @@ main h2{
 main p{
     columns: 2;
 }
+ul{
+    list-style: inside;
+    columns: 2;
+}
+.imagens img{
+    display: flex;
+    max-height: 300px;
+    max-width: 350px;
+    border-radius: 10px;
+    margin-left: 30px; 
+}
+
+.imagens li{
+    text-align: center;
+}
