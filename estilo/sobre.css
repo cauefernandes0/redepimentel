@@ -99,12 +99,30 @@ main h2{
 
 .imagens{
     display: flex;
-    columns: 2;
     max-height: 500px;
+    
 }
+
+    
 
 img.pessoa{
     width: 250px;
     border-radius: 10px;
-    margin-left: 15px;        
+    margin-left: 15px; 
+    
+}
+.imagens li{
+    text-align: center;
+    color: black;
+}
+
+ul {
+    display:  grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+li{
+    list-style: inside;
+    display: flex;
+    align-items: center;
 }
