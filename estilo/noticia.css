@@ -118,3 +118,8 @@ article h2{
     text-align: center;
     border-radius: 8px 8px 0px 0px;
 }
+article li{
+    list-style: inside;
+    font-size: 1.1em;
+    padding: 10px;
+}
