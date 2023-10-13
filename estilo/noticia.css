@@ -26,7 +26,6 @@
 
 body {
     font-family: var(--fonte-padrao);
-    background-color: var(--cor01);
 }
 
 header {
@@ -37,8 +36,8 @@ header {
 }
 
 header > h1{
-    padding: 10px   ;
-    font-family: var(--fonte-destaque);
+    padding: 10px;
+    font-family: var(--fonte-professor);
     margin-bottom: 20px;
     font-size: 3em;
     text-shadow: 3px 4px 1px black;
@@ -71,32 +70,27 @@ nav a{
 }
 
 main{
-    margin: auto;;
-    background-color: white;
+    margin: auto;
+    background-color: var(--cor0);
     text-align: justify;
     min-width: 300px;
     max-width: 1000px;
-    border-radius: 0px 0px 15px 15px;
     box-shadow: 0px 6px 7px rgba(0, 0, 0, 0.299);
+    border-radius: 0px 0px 15px 15px;
     
 }
 main h1{
-    padding: 15px;
+    padding: 10px;
     margin-left: 15px;
     font-family: var(--fonte-professor);
-    font-size: 1.6em;
 }
-main h2{
-    font-family: var(--fonte-professor);
-    font-size: 1.4em;
-    text-indent: 30px;
-    font-weight: normal;
-}
+
 main p{
     font-size: 1.1em;
     text-indent: 30px;
     padding: 10px;
 }
+
 #saude-mental-grafico{
     width: 100%;
     display: flex;
