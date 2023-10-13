@@ -38,7 +38,7 @@ header {
 header > h1{
     padding: 10px;
     font-family: var(--fonte-professor);
-    margin-bottom: 20px;
+    margin-bottom: 8px;
     font-size: 3em;
     text-shadow: 3px 4px 1px black;
 }
@@ -47,6 +47,7 @@ header > p{
     font-family: var(--fonte-padrao);
     font-weight: normal;
     font-size: 1.2em;
+    padding-bottom: 20px;
 }
 
 nav{
