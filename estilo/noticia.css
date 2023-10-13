@@ -25,6 +25,7 @@
 }
 
 body {
+    background-color: var(--cor01);
     font-family: var(--fonte-padrao);
 }
 
@@ -72,13 +73,16 @@ nav a{
 
 main{
     margin: auto;
-    background-color: var(--cor0);
+    background-color: white;
     text-align: justify;
     min-width: 300px;
     max-width: 1000px;
     box-shadow: 0px 6px 7px rgba(0, 0, 0, 0.299);
     border-radius: 0px 0px 15px 15px;
     
+}
+.subtitulo{
+    font-size: 16px;
 }
 main h1{
     padding: 10px;
@@ -90,6 +94,7 @@ main p{
     font-size: 1.1em;
     text-indent: 30px;
     padding: 10px;
+    
 }
 
 #saude-mental-grafico{
