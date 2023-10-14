@@ -12,11 +12,12 @@
     padding: 0px;
 }
 :root{
-    --cor0:#FFFDD0;
-    --cor01:#F1DEDE;
+    --cor0:#BFB1C1;
+    --cor01:#BCB6FF;
     --cor02:#545775;
     --cor03: #003E1F;
-    --cor04: #BA2D0B;
+    --cor04: #83e1ad;
+
 
     --fonte-destaque: 'Bebas Neue', sans serif;
     --fonte-professor: "Professor";
@@ -126,4 +127,13 @@ li{
     list-style: inside;
     display: flex;
     align-items: center;
+}
+footer{
+    margin-top: 30px;
+    background-color: var(--cor03);
+    color: white;
+    padding: 10px;
+    font-size: 0.9em;
+    text-align: center;
+    font-weight: bolder;
 }
