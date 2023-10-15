@@ -71,6 +71,7 @@ nav a:hover{
     transition-duration: 0.3s;
 }
 main{
+    margin-bottom: 30px;
     padding: 20px;
     margin: auto;
     background-color: white;
@@ -84,8 +85,11 @@ main h1{
     padding: 10px;
     margin-left: 15px;
     font-family: var(--fonte-professor);
+    margin-bottom: 20px;
 }
 main h2{
+    font-family: var(--fonte-professor);
+    text-align: center;
     padding: 4px;
     border-bottom: 2px solid rgb(78, 78, 78);
     margin: 0px 10px 10px 15px;
@@ -95,3 +99,4 @@ main p{
     text-indent: 30px;
     padding: 10px;
 }
+
