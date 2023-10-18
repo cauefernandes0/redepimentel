@@ -74,8 +74,7 @@ nav a{
 
 main{
     margin: auto;
-    margin-left: 30px;
-    margin-right: 30px;
+    max-width: 1400px;
     background-color: var(--cor0);
     border-radius: 0px 0px 15px 15px;
     box-shadow: 0px 6px 7px rgba(0, 0, 0, 0.299);
@@ -96,7 +95,7 @@ main h3{
 }
 
 img.noticias{
-    width: 250px;
+    max-width: 250px;
     border-radius: 10px;
     margin-left: 15px;        
 }

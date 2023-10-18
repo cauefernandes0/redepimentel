@@ -27,7 +27,7 @@
 body {
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
-    background-image: url('../img/papel-de-parede.jpg');
+    background-image: url('../../img/papel-de-parede.jpg');
     background-attachment: fixed;
     
 }

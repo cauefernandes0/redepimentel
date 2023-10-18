@@ -26,7 +26,7 @@
 
 body {
     font-family: var(--fonte-padrao);
-    background-image: url('../img/papel-de-parede.jpg');
+    background-image: url('../../img/papel-de-parede.jpg');
     background-attachment: fixed;
     
 }
@@ -95,7 +95,12 @@ main p{
     text-indent: 30px;
     padding: 10px;
 }
-
+.imagens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
 
 #salario-professor{
     width: 100%;
