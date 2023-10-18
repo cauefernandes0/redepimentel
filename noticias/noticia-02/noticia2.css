@@ -25,12 +25,12 @@
 }
 
 body {
-    background-color: var(--cor0);
     font-family: var(--fonte-padrao);
+    background-image: url('../img/papel-de-parede.jpg');
+    background-attachment: fixed;
+    
 }
-a.externos::after{
-    content: '\00A0\1F517';
-}
+
 header {
     text-align: center;
     background-color:var(--cor03);
@@ -67,7 +67,7 @@ nav a{
     text-shadow: 0px 7px 9px black;
 
 }
-nav a:hover{
+ nav a:hover{
     background-color: rgba(47, 209, 47, 0.527);
     color: white;
     transition-duration: 0.3s;
@@ -84,88 +84,24 @@ main{
     border-radius: 0px 0px 15px 15px;
     
 }
-main a{
-    text-decoration: none;
-    color: black;
-}
-main a:hover{
-    text-decoration: underline;
-}
-.subtitulo{
-    font-size: 16px;
-}
-#quem-fez{
-    border-bottom: 0px solid white;
-    font-size: 12px;
-    margin-left: 20px;
-    font-family: var(--fonte-padrao);
-}
 main h1{
     padding: 10px;
     margin-left: 15px;
     font-family: var(--fonte-professor);
 }
-main h2{
-    padding: 4px;
-    border-bottom: 2px solid rgb(78, 78, 78);
-    margin: 0px 10px 10px 15px;
-}
+
 main p{
     font-size: 1.1em;
     text-indent: 30px;
     padding: 10px;
-    
 }
-.imagens{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-}
-.saude-mental-grafico{
+
+
+#salario-professor{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 30px;
-    border-radius: 5px;
-}
-article{
-    background-color: var(--cor04);
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 2px 1px 7px  rgba(0, 0, 0, 0.212);
-    margin: 0px 10px 20px 10px
-}
-article h2{
-    border-bottom: 0px solid var(--cor01);
-    background-color: var(--cor04);
-    margin: -10px -10px 0px -10px;
-    text-align: center;
-    border-radius: 8px 8px 0px 0px;
-}
-article li{
-    list-style: inside;
-    font-size: 1.1em;
-    padding: 10px;
-}
-aside{
-    
-    background-color: var(--cor04);
-    border-radius: 8px;
-    padding: 10px;
-    box-shadow: 2px 5px 7px rgb(0, 0, 0);
-}
-aside h3{
-    background-color: var(--cor03);
-    color: white;
-    border-radius: 7px 7px 0px 0px;
-    margin: -10px -10px 10px -10px;
-    padding: 10px;
-    
-}
-#final{
-    text-align: center;
 }
 footer{
     margin-top: 30px;
@@ -176,3 +112,4 @@ footer{
     text-align: center;
     font-weight: bolder;
 }
+    
