@@ -93,6 +93,16 @@ main{
     border-radius: 0px 0px 15px 15px;
     
 }
+main a, footer a{
+    text-decoration: none;
+    color: gray;
+}
+a.externos::after{
+    content: '\00A0\1F517';
+}
+main a:hover, footer a:hover{
+    text-decoration: underline;
+}
 .imagens-main{
     width: 100%;
     display: flex;
@@ -150,6 +160,10 @@ aside h3{
     padding: 10px;
     
 }
+#final{
+    text-align: center;
+}
+
 footer{
     margin-top: 30px;
     background-color: var(--cor03);
