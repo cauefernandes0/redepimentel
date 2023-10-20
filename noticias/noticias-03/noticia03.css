@@ -130,3 +130,11 @@ footer{
     text-align: center;
     font-weight: bolder;
 }
+#principal{
+    margin-bottom: 0px;
+}
+.legenda{
+    font-size: 0.8em;
+    margin-left: 60px;
+    
+}
