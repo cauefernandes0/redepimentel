@@ -115,11 +115,20 @@ main p{
     padding: 10px;
     
 }
+main li{
+    margin-left: 50px;
+    list-style: inside;
+    font-size: 1.1em;
+    padding: 10px;
+}
+main h3{
+    font-size: 1.3em;
+    margin-left: 15px;
+}
 .imagens{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
 }
 footer{
     margin-top: 30px;
