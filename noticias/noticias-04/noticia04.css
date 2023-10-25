@@ -71,3 +71,46 @@ nav a:hover{
     color: white;
     transition-duration: 0.3s;
 }
+main{
+    padding: 20px;
+    margin: auto;
+    background-color: white;
+    text-align: justify;
+    min-width: 300px;
+    max-width: 1000px;
+    box-shadow: 7px 6px 7px rgba(0, 0, 0, 0.299);
+    border-radius: 0px 0px 15px 15px;
+    
+}
+main a{
+    text-decoration: none;
+    color: black;
+}
+main a:hover{
+    text-decoration: underline;
+}
+.subtitulo{
+    font-size: 16px;
+}
+#quem-fez{
+    border-bottom: 0px solid white;
+    font-size: 12px;
+    margin-left: 20px;
+    font-family: var(--fonte-padrao);
+}
+main h1{
+    padding: 10px;
+    margin-left: 15px;
+    font-family: var(--fonte-professor);
+}
+main h2{
+    padding: 4px;
+    border-bottom: 2px solid rgb(78, 78, 78);
+    margin: 0px 10px 10px 15px;
+}
+main p{
+    font-size: 1.1em;
+    text-indent: 30px;
+    padding: 10px;
+    
+}
